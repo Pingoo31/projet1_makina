@@ -1,26 +1,31 @@
 import random
+from dataclasses import dataclass
 
-class Facture(object):
 
+@dataclass
+class Facture:
 
     def __init__(self, client):
         self.clent = client
-        self.numero = random.random() * 10000
+        self.numero = int(random.random() * 10000)
         self.lignes_produit = []
         self.tva = 1.2
 
     def ajouter_ligne_produit(self, ligne):
         self.lignes_produit.append(ligne)
 
+    @property
     def numero_facture(self):
-        return str(int(self.numero))
+        return str(self.numero)
 
+    @property
     def montant_total(self):
-        return self.montant_HT() * self.tva
+        return self.montant_HT * self.tva
 
+    @property
     def montant_HT(self):
         ht = 0
         for ligne in self.lignes_produit:
-            ht += ligne.montant()
+            ht += ligne.montant
         return ht
 

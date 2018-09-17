@@ -1,4 +1,8 @@
-class Produit(object):
+from dataclasses import dataclass
+
+
+@dataclass
+class Produit:
 
     def __init__(self, nom, prix):
         self.nom = nom
