@@ -1,0 +1,8 @@
+class LigneFacture(object):
+
+    def __init__(self, produit, quantite):
+        self.produit = produit
+        self.quantite = quantite
+
+    def montant(self):
+        return self.produit.prix * self.quantite
