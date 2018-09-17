@@ -19,5 +19,6 @@ ligne2 = LigneFacture(produit2, 1)
 facture.ajouter_ligne_produit(ligne2)
 print("1 ligne ajoutée : " + ligne2.produit.nom + ", Qté : " + str(ligne2.quantite) + ", montant : " + str(ligne2.montant()))
 
+print("Montant HT = " + str(facture.montant_HT()))
 print("Montant Total = " + str(facture.montant_total()))
 

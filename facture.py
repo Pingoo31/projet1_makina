@@ -7,6 +7,7 @@ class Facture(object):
         self.clent = client
         self.numero = random.random() * 10000
         self.lignes_produit = []
+        self.tva = 1.2
 
     def ajouter_ligne_produit(self, ligne):
         self.lignes_produit.append(ligne)
@@ -15,7 +16,11 @@ class Facture(object):
         return str(int(self.numero))
 
     def montant_total(self):
-        compte = 0
+        return self.montant_HT() * self.tva
+
+    def montant_HT(self):
+        ht = 0
         for ligne in self.lignes_produit:
-            compte += ligne.montant()
-        return compte
+            ht += ligne.montant()
+        return ht
+
