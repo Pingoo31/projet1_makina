@@ -3,9 +3,8 @@ from dataclasses import dataclass
 
 @dataclass
 class Client:
-    def __init__(self, nom, prenom):
-        self.nom = nom
-        self.prenom = prenom
+    nom: str
+    prenom: str
 
     @property
     def nom_complet(self):

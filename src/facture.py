@@ -4,15 +4,13 @@ from dataclasses import dataclass
 
 @dataclass
 class Facture:
-
-    def __init__(self, client):
-        self.clent = client
-        self.numero = int(random.random() * 10000)
-        self.lignes_produit = []
-        self.tva = 1.2
+    clent: str
+    numero:int = int(random.random() * 10000)
+    lignes_facture = []
+    tva: float = 1.2
 
     def ajouter_ligne_produit(self, ligne):
-        self.lignes_produit.append(ligne)
+        self.lignes_facture.append(ligne)
 
     @property
     def numero_facture(self):
@@ -25,7 +23,7 @@ class Facture:
     @property
     def montant_HT(self):
         ht = 0
-        for ligne in self.lignes_produit:
+        for ligne in self.lignes_facture:
             ht += ligne.montant
         return ht
 

@@ -1,7 +1,8 @@
-from client import Client
-from facture import Facture
-from ligneFacture import LigneFacture
-from produit import Produit
+from src.client import Client
+from src.facture import Facture
+from src.ligneFacture import LigneFacture
+from src.produit import Produit
+
 
 produit1 = Produit("AndroidOne", 355)
 produit2 = Produit("LinuxPhone", 241)
@@ -21,9 +22,3 @@ print(f"1 ligne ajoutée : {ligne2.produit.nom}, Qté : {str(ligne2.quantite)}, 
 
 print(f"Montant HT = {str(facture.montant_HT)}")
 print(f"Montant Total = {str(facture.montant_total)}")
-
-def test():
-    assert produit1.nom == "AndroidOne"
-
-test()
-
