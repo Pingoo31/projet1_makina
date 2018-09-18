@@ -1,10 +1,12 @@
 import random
 from dataclasses import dataclass
 
+from src.client import Client
+
 
 @dataclass
 class Facture:
-    clent: str
+    client: Client
     numero:int = int(random.random() * 10000)
     lignes_facture = []
     tva: float = 1.2
