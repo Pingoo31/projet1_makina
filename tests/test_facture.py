@@ -10,7 +10,7 @@ class testFacture(unittest.TestCase):
 
     def setUp(self):
         client = Client("Pingoo", "Stéphane")
-        produit = Produit("AndroidOne", 125.8)
+        produit = Produit("AndroidOne", 355)
         produit2 = Produit("LinuxPhone", 241)
         self.facture = Facture(client)
         self.facture.ajouter_ligne_produit(LigneFacture(produit, 2))
