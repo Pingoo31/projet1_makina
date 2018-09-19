@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3340ab36-cc20-435b-a213-a06f47ed060c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo_mock.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_mock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_facture.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_facture.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,11 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ex1$demo_mock.coverage" NAME="demo_mock Coverage Results" MODIFIED="1537348353349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex1$demo_mock.coverage" NAME="demo_mock Coverage Results" MODIFIED="1537361158791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/ex1$ligne_facture.coverage" NAME="ligne_facture Coverage Results" MODIFIED="1537197742751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ex1$test_ex1.coverage" NAME="test ex1 Coverage Results" MODIFIED="1537194740920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/ex1$Unnamed.coverage" NAME="produit Coverage Results" MODIFIED="1537281292537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/ex1$ex1.coverage" NAME="ex1 Coverage Results" MODIFIED="1537284848873" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ex1$unittest.coverage" NAME="unittest Coverage Results" MODIFIED="1537362306110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="113063367">
@@ -32,31 +32,32 @@
         <counts>
           <entry key="coverage" value="1" />
           <entry key="html" value="1" />
-          <entry key="py" value="39" />
-          <entry key="yml" value="2" />
+          <entry key="py" value="41" />
+          <entry key="txt" value="1" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="39" />
-          <entry key="YAML" value="2" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="41" />
+          <entry key="YAML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="246" />
-          <entry key="py" value="4534" />
-          <entry key="txt" value="113" />
+          <entry key="py" value="4705" />
+          <entry key="txt" value="135" />
           <entry key="yml" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="246" />
-          <entry key="PLAIN_TEXT" value="113" />
-          <entry key="Python" value="4534" />
+          <entry key="PLAIN_TEXT" value="135" />
+          <entry key="Python" value="4705" />
           <entry key="YAML" value="36" />
         </counts>
       </usages-collector>
@@ -67,23 +68,41 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_mock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+            <state relative-caret-position="299">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1537351511006" expanded="true" signature="153:158" ph="..." />
-                <marker date="1537351511006" expanded="true" signature="236:237" ph="..." />
-                <marker date="1537351511006" expanded="true" signature="764:782" ph="..." />
+                <marker date="1537361155819" expanded="true" signature="181:188" ph="..." />
+                <marker date="1537361155819" expanded="true" signature="266:267" ph="..." />
+                <marker date="1537361155819" expanded="true" signature="794:812" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/factories.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+                <marker date="1537343657120" expanded="true" signature="310:315" ph="..." />
+                <marker date="1537343657120" expanded="true" signature="459:464" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+        <entry file="file://$PROJECT_DIR$/tests/test_facture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="330">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1537362306097" expanded="true" signature="214:536" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+            <state relative-caret-position="288">
+              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -131,11 +150,12 @@
         <option value="$PROJECT_DIR$/src/client.py" />
         <option value="$PROJECT_DIR$/templates/facture.html" />
         <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/tests/test_facture.py" />
         <option value="$PROJECT_DIR$/tests/factories.py" />
-        <option value="$PROJECT_DIR$/src/user.py" />
-        <option value="$PROJECT_DIR$/demo_mock.py" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/demo_mock.py" />
+        <option value="$PROJECT_DIR$/src/user.py" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/tests/test_facture.py" />
       </list>
     </option>
   </component>
@@ -199,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/test_ligne_facture.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -227,7 +247,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.demo_mock">
+  <component name="RunManager" selected="Python tests.unittest">
     <configuration name="demo_mock" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ex1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,8 +321,25 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="unittest" type="tests" factoryName="Unittests">
+      <module name="ex1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/Projets/virtual_envs/makina/bin/python3.7" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_pattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;discover -p test_*.py&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.ex1" />
+      <item itemvalue="Python tests.unittest" />
       <item itemvalue="Python tests.produit" />
       <item itemvalue="Python tests.ligne_facture" />
       <item itemvalue="Python.demo_mock" />
@@ -317,21 +354,6 @@
     <configuration />
   </component>
   <component name="TestHistory">
-    <history-entry file="test_ex1 - 2018.09.17 at 17h 03m 00s.xml">
-      <configuration name="test ex1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="test_ex1 - 2018.09.17 at 17h 03m 53s.xml">
-      <configuration name="test ex1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="test_ex1 - 2018.09.17 at 17h 04m 03s.xml">
-      <configuration name="test ex1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="test_ex1 - 2018.09.17 at 17h 04m 16s.xml">
-      <configuration name="test ex1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="test_ex1 - 2018.09.17 at 17h 05m 36s.xml">
-      <configuration name="test ex1" configurationId="tests" />
-    </history-entry>
     <history-entry file="test_ex1 - 2018.09.17 at 17h 08m 35s.xml">
       <configuration name="test ex1" configurationId="tests" />
     </history-entry>
@@ -347,6 +369,21 @@
     <history-entry file="produit - 2018.09.18 at 16h 34m 52s.xml">
       <configuration name="produit" configurationId="tests" />
     </history-entry>
+    <history-entry file="unittest - 2018.09.19 at 15h 01m 55s.xml">
+      <configuration name="unittest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="unittest - 2018.09.19 at 15h 02m 21s.xml">
+      <configuration name="unittest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="unittest - 2018.09.19 at 15h 04m 43s.xml">
+      <configuration name="unittest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="unittest - 2018.09.19 at 15h 04m 57s.xml">
+      <configuration name="unittest" configurationId="tests" />
+    </history-entry>
+    <history-entry file="unittest - 2018.09.19 at 15h 05m 06s.xml">
+      <configuration name="unittest" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
@@ -355,16 +392,16 @@
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24973261" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.24973261" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49946523" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32929516" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32929516" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50106955" side_tool="true" weight="0.2709251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893048" weight="0.4537445" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893048" visible="true" weight="0.4537445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40198237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -416,7 +453,8 @@
     <MESSAGE value="ajout du test de la facture" />
     <MESSAGE value="création de rapport en HTML et en PDF" />
     <MESSAGE value="demo mock" />
-    <option name="LAST_COMMIT_MESSAGE" value="demo mock" />
+    <MESSAGE value="ajout requirements.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout requirements.txt" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -514,18 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/factories.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1537343657120" expanded="true" signature="310:315" ph="..." />
-            <marker date="1537343657120" expanded="true" signature="459:464" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/client.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -564,41 +590,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_facture.py">
+    <entry file="file://$PROJECT_DIR$/src/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="53" lean-forward="true" selection-start-line="20" selection-start-column="53" selection-end-line="20" selection-end-column="53" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537275478365" expanded="true" signature="214:536" ph="..." />
-          </folding>
+        <state relative-caret-position="288">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/user.py">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        <state relative-caret-position="108">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demo_mock.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="69" column="55" lean-forward="true" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+        <state relative-caret-position="299">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537351511006" expanded="true" signature="153:158" ph="..." />
-            <marker date="1537351511006" expanded="true" signature="236:237" ph="..." />
-            <marker date="1537351511006" expanded="true" signature="764:782" ph="..." />
+            <marker date="1537361155819" expanded="true" signature="181:188" ph="..." />
+            <marker date="1537361155819" expanded="true" signature="266:267" ph="..." />
+            <marker date="1537361155819" expanded="true" signature="794:812" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/factories.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1537343657120" expanded="true" signature="310:315" ph="..." />
+            <marker date="1537343657120" expanded="true" signature="459:464" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_facture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1537362306097" expanded="true" signature="214:536" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
