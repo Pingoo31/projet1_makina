@@ -1,4 +1,5 @@
 import unittest
+from unittest import mock
 
 import requests
 import responses
@@ -80,3 +81,11 @@ class Test_user(unittest.TestCase):
         responses.add(responses.GET, 'http://randomuser.me/api/', status=404)
         with self.assertRaises(HttpNotFound):
             user = get_user()
+
+    @mock.patch('demo_mock.get_user')
+    def test_get_user_mock(self, mock_get_user):
+        mock_get_user.return_value = User.create_from_api(mock_user)
+        user = get_user()
+        self.assertIsInstance(user, User)
+        self.assertEqual(user.prenom, "Stéphane")
+        self.assertEqual(user.nom, "THIPHONET")
