@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3340ab36-cc20-435b-a213-a06f47ed060c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/demo_mock_pytest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_facture.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_facture.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,32 +33,34 @@
         <counts>
           <entry key="coverage" value="1" />
           <entry key="html" value="1" />
-          <entry key="py" value="41" />
+          <entry key="ini" value="1" />
+          <entry key="py" value="43" />
           <entry key="txt" value="1" />
-          <entry key="yml" value="3" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="41" />
-          <entry key="YAML" value="3" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Python" value="43" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="246" />
-          <entry key="py" value="4705" />
-          <entry key="txt" value="135" />
+          <entry key="ini" value="76" />
+          <entry key="py" value="4944" />
+          <entry key="txt" value="154" />
           <entry key="yml" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="246" />
-          <entry key="PLAIN_TEXT" value="135" />
-          <entry key="Python" value="4705" />
+          <entry key="PLAIN_TEXT" value="230" />
+          <entry key="Python" value="4944" />
           <entry key="YAML" value="36" />
         </counts>
       </usages-collector>
@@ -65,53 +68,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo_mock_pytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+              <folding>
+                <element signature="e#1#14#0" expanded="true" />
+                <marker date="1537371349313" expanded="true" signature="1416:1425" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo_mock.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+            <state relative-caret-position="9">
+              <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1537361155819" expanded="true" signature="181:188" ph="..." />
-                <marker date="1537361155819" expanded="true" signature="266:267" ph="..." />
-                <marker date="1537361155819" expanded="true" signature="794:812" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/factories.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="36" lean-forward="true" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-                <marker date="1537343657120" expanded="true" signature="310:315" ph="..." />
-                <marker date="1537343657120" expanded="true" signature="459:464" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/tests/test_facture.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-                <marker date="1537362306097" expanded="true" signature="214:536" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/user.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -156,6 +133,8 @@
         <option value="$PROJECT_DIR$/src/user.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/tests/test_facture.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/demo_mock_pytest.py" />
       </list>
     </option>
   </component>
@@ -230,6 +209,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
@@ -397,11 +379,11 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49946523" weight="0.32929516" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32929516" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.47026432" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50106955" side_tool="true" weight="0.2709251" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49893048" visible="true" weight="0.4537445" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49893048" weight="0.4537445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.40198237" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -454,7 +436,8 @@
     <MESSAGE value="création de rapport en HTML et en PDF" />
     <MESSAGE value="demo mock" />
     <MESSAGE value="ajout requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout requirements.txt" />
+    <MESSAGE value="demo mock complet" />
+    <option name="LAST_COMMIT_MESSAGE" value="demo mock complet" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -604,26 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_mock.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537361155819" expanded="true" signature="181:188" ph="..." />
-            <marker date="1537361155819" expanded="true" signature="266:267" ph="..." />
-            <marker date="1537361155819" expanded="true" signature="794:812" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/factories.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -642,7 +605,42 @@
           <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1537362306097" expanded="true" signature="214:536" ph="..." />
+            <marker date="1537364769506" expanded="true" signature="214:536" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo_mock_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+          <folding>
+            <element signature="e#1#14#0" expanded="true" />
+            <marker date="1537371349313" expanded="true" signature="1416:1425" ph="..." />
           </folding>
         </state>
       </provider>
