@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{{ facture.client.nom_complet }}
+<table>
+    <thead>
+    <th>Nom</th>
+    <th>P.U.</th>
+    <th>Qté</th>
+    <th>Total HT</th>
+    </thead>
+
+    {% for ligne in facture.lignes_facture %}
+    <tr>
+        <td>{{ ligne.produit.nom }}</td>
+        <td>{{ ligne.produit.prix }}</td>
+        <td>{{ ligne.quantite }}</td>
+        <td>{{ ligne.montant }}</td>
+    </tr>
+    {% endfor %}
+</table>
+Total HT: {{ facture.montant_HT }}€
+Total TTC: {{ facture.montant_total }}€
+</body>
+</html>

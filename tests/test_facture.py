@@ -18,5 +18,6 @@ class testFacture(unittest.TestCase):
 
 
     def test_creation_facture(self):
+        self.assertEqual(self.facture.lignes_facture)
         self.assertEqual(self.facture.montant_HT, 951)
         self.assertEqual(self.facture.montant_total, 1141.2)
