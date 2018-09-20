@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3340ab36-cc20-435b-a213-a06f47ed060c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo_mock_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo_memory_profiler.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,7 +33,7 @@
           <entry key="coverage" value="1" />
           <entry key="html" value="1" />
           <entry key="ini" value="1" />
-          <entry key="py" value="43" />
+          <entry key="py" value="44" />
           <entry key="txt" value="1" />
           <entry key="yml" value="4" />
         </counts>
@@ -43,7 +42,7 @@
         <counts>
           <entry key="HTML" value="1" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="44" />
           <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
@@ -51,7 +50,7 @@
         <counts>
           <entry key="html" value="246" />
           <entry key="ini" value="76" />
-          <entry key="py" value="4944" />
+          <entry key="py" value="5282" />
           <entry key="txt" value="154" />
           <entry key="yml" value="36" />
         </counts>
@@ -60,7 +59,7 @@
         <counts>
           <entry key="HTML" value="246" />
           <entry key="PLAIN_TEXT" value="230" />
-          <entry key="Python" value="4944" />
+          <entry key="Python" value="5282" />
           <entry key="YAML" value="36" />
         </counts>
       </usages-collector>
@@ -69,25 +68,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/demo_mock_pytest.py">
+        <entry file="file://$PROJECT_DIR$/demo_memory_profiler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+            <state relative-caret-position="117">
+              <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
               <folding>
-                <element signature="e#1#14#0" expanded="true" />
-                <marker date="1537371349313" expanded="true" signature="1416:1425" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/demo_mock.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="65" column="36" lean-forward="true" selection-start-line="65" selection-start-column="36" selection-end-line="65" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1537430514196" expanded="true" signature="112:320" ph="..." />
+                <marker date="1537430514196" expanded="true" signature="354:359" ph="..." />
               </folding>
             </state>
           </provider>
@@ -135,6 +122,7 @@
         <option value="$PROJECT_DIR$/tests/test_facture.py" />
         <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/demo_mock_pytest.py" />
+        <option value="$PROJECT_DIR$/demo_memory_profiler.py" />
       </list>
     </option>
   </component>
@@ -178,16 +166,6 @@
             <path>
               <item name="ex1" type="b2602c69:ProjectViewProjectNode" />
               <item name="ex1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ex1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ex1" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -624,6 +602,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/demo_mock_pytest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="84" column="23" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1537371442485" expanded="true" signature="1416:1425" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/demo_mock.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9">
@@ -634,13 +623,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo_mock_pytest.py">
+    <entry file="file://$PROJECT_DIR$/demo_memory_profiler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="85" column="23" lean-forward="true" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        <state relative-caret-position="117">
+          <caret line="14" column="9" lean-forward="true" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
           <folding>
-            <element signature="e#1#14#0" expanded="true" />
-            <marker date="1537371349313" expanded="true" signature="1416:1425" ph="..." />
+            <marker date="1537430514196" expanded="true" signature="112:320" ph="..." />
+            <marker date="1537430514196" expanded="true" signature="354:359" ph="..." />
           </folding>
         </state>
       </provider>
